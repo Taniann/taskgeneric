@@ -15,4 +15,8 @@ public class Securities implements Asset {
     public void checkBalance() {
         System.out.println("Balance: securities");
     }
+
+    public void checkBalance(int i) {
+        System.out.println("Balance: securities");
+    }
 }
